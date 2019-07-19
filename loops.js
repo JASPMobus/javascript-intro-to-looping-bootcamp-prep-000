@@ -3,7 +3,7 @@ function forLoop(array) {
     var sOrNot = "s"
     if(i===0) sOrNot = ""
     var push = "I am " + i + "strange loop" + sOrNot + "."
-    console.log push;
+    console.log(push)
     array.push("I am " + i + "strange loop" + sOrNot + ".")
   }
 }
