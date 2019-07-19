@@ -4,6 +4,6 @@ function forLoop(array) {
     if(i===0) {
       sOrNot = ""
     }
-    array.push("I am " + i + "strange loop" + sOrNot + ".")
+    array.push("I am ${i} strange loops.")
   }
 }
