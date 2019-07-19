@@ -4,8 +4,6 @@ function forLoop(array) {
     if(i===0) {
       sOrNot = ""
     }
-    var push = "I am " + i + "strange loop" + sOrNot + "."
-    console.log(push)
     array.push("I am " + i + "strange loop" + sOrNot + ".")
   }
 }
